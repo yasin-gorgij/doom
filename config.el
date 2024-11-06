@@ -91,3 +91,5 @@
 
 (add-to-list 'load-path "/home/yasin/.opam/default/share/emacs/site-lisp")
   (require 'ocp-indent)
+
+(setq confirm-kill-emacs nil)
