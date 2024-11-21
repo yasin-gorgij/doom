@@ -74,7 +74,7 @@
 ;;
 ;; You can also try 'gd' (or 'C-c c d') to jump to their definition and see how
 ;; they are implemented.
-(setq doom-font (font-spec :family "Fira Code" :size 18 :weight 'semi-light))
+(setq doom-font (font-spec :family "Fira Code" :size 22 :weight 'light))
 
 (add-hook! 'go-mode-hook
   (add-hook 'before-save-hook #'lsp-format-buffer nil 'local)
